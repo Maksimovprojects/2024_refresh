@@ -110,7 +110,6 @@ def test_can_delete_task_6():
     # Get the task and validate that it does not exist
     get_task_response = get_task(task_id)
     assert get_task_response.status_code == 404
-    pass
 
 
 
